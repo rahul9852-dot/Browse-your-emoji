@@ -1,0 +1,102 @@
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+
+}
+.search-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 300px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-input input {
+  flex: 1;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  outline: none;
+}
+.emoji-container{
+  margin: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.emoji-card{
+  width: 250px;
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.emoji-content{
+  display: flex;
+  flex-direction: column;
+}
+
+.emoji-content span {
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.emoji-content :nth-child(4){
+  margin-bottom: 5px;
+  font-size: 30px;
+}
+ .heading{
+  color: #007bff;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.pagination li {
+  margin: 0 5px;
+}
+
+.pagination li a {
+  display: inline-block;
+  padding: 5px 10px;
+  text-decoration: none;
+  background-color: #f1f1f1;
+  color: #333;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.pagination li a:hover {
+  background-color: #ccc;
+}
+
+.pagination li.active a {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.pagination li.disabled a {
+  pointer-events: none;
+  background-color: #ccc;
+}
+
+@media screen and (max-width: 768px) {
+  .emoji-card {
+    width: 100%;
+  }
+}
