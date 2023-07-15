@@ -1,5 +1,5 @@
 
-![](images/emoji.png)
+![](src/images/emoji.png)
 
 # Getting Started with Create React App
 
