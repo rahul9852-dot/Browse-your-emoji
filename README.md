@@ -26,7 +26,7 @@ A React component that allows users to browse and search through a list of emoji
   - Provides a responsive design that adapts to different screen sizes and devices.
 
 ## Installation:
-  - Clone the repository: git clone [https://github.com/rahul9852-dot/Browse-your-emoji]
+  - Clone the repository: git clone [repository-url](https://github.com/rahul9852-dot/Browse-your-emoji)
   - Navigate to the project directory: cd [emoji-app]
   - Install dependencies: npm install
   - Start the development server: npm start
